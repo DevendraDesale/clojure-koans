@@ -38,8 +38,8 @@
           (catch IllegalStateException e
             "No dice!")))
 
-  "The rest of nothing isn't so strict"
-  "As something is not strict it will return something"
+  "The rest of nothing isn't so strict
+  As something is not strict it will return something"
   (= '() (try
           (rest '())
           (catch IllegalStateException e
